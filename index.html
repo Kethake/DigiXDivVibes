@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+<body>
+    <h1><i class="bi bi-cone-striped"></i><span class="badge text-bg-dark">Vegas</span>Construction</h1>
+    <hr>
+
+    <nav class="navbar navbar-expand-lg bg-body-secondary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><h5></h5></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"><h4>Home</h4></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"><h4>Link</h4></a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  <h4>Dropdown</h4>
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" aria-disabled="true"><h4>Disabled</h4></a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit"><h4>Search</h4></button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <hr>
+
+      <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="photos/construction 1.jpg" class="d-block w-100" alt="working" width="200" height="500">
+          </div>
+          <div class="carousel-item">
+            <img src="photos/construction 2.jpg" class="d-block w-100" alt="working" width="200" height="500">
+          </div>
+          <div class="carousel-item">
+            <img src="photos/construction.jpg" class="d-block w-100" alt="working" width="200" height="500">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div><br>
+
+
+      <div class="accordion" id="accordionExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              Estimate prices for 1km
+            </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <strong>
+                price = cement_price*water_bill*1000*equipment_price*;
+              </strong>  
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              Estimation prices
+            </button>
+          </h2>
+          <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              Accordion Item #3
+            </button>
+          </h2>
+          <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+
+      <nav id="navbar-example2" class="navbar bg-body-tertiary px-3 mb-3">
+        <a class="navbar-brand" href="#"><h3>Our Construction Details</h3></a>
+        <ul class="nav nav-pills">
+          <li class="nav-item">
+            <a class="nav-link" href="#scrollspyHeading1">First</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#scrollspyHeading2">Second</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Dropdown</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#scrollspyHeading3">Third</a></li>
+              <li><a class="dropdown-item" href="#scrollspyHeading4">Fourth</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#scrollspyHeading5">Fifth</a></li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example bg-body-tertiary p-3 rounded-2" tabindex="0">
+        <h4 id="scrollspyHeading1">>Owner</h4><br>
+        <p>
+        <div class="container" width="600" height="300">
+            <div class="row">
+                <div class="col"><img src="photos/saman.jpg" alt="" width="300" height="300"></div>
+                <div class="col">Owner of <strong>Vegas Construction</strong> is <strong>Mr.Saman Thilakasiri.</strong><br>
+                    He is a civil Enginner and He is the first born child in his<br>
+                    family. His wife is Mrs.Yapa Kumari and He has only three <br>daughters.He was the 
+                    beginner of this construction and the second owner is his youngest daughter,
+                    Mis.Vameesha <br>Thilakasiri.</div>
+                <div class="col"></div>
+            </div>
+        </div>
+        </p>
+        <br>
+        <h4 id="scrollspyHeading2">>Construction Status</h4><br>
+        <p>Start => <strong>2002.05.14</strong><br>
+        Owner => <strong>Mr.Saman Thilakasiri</strong><br>
+        Level => <strong>E3</strong><br>
+        No:of Workers => <strong>Fifty two</strong></p>
+        <br><h4 id="scrollspyHeading3">>Works per year</h4>
+        <p>:With comparing to the all constructions from RDA, In 2020 rating progress is here,<br>
+            <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100">
+            <div class="progress-bar overflow-visible text-dark" style="width: 40%"><strong> With comparing whole constructions in Sabaragamuwa</strong></div>
+          </div><br><br>
+            :With comparing to the all constructions from RDA, In 2022 rating progress is here,<br>
+            <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100">
+            <div class="progress-bar overflow-visible text-dark" style="width: 20%"><strong> With comparing whole constructions in Sabaragamuwa</strong></div>
+          </div><br><br>
+          :With comparing to the all constructions from RDA, In 2023 rating progress is here,<br>
+          <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100">
+          <div class="progress-bar overflow-visible text-dark" style="width: 30%"><strong> With comparing whole constructions in Sabaragamuwa</strong></div>
+        </div></p>
+        <br><h4 id="scrollspyHeading4">>RDA recommendation</h4><br>
+        <p><a href="http://www.rda.gov.lk/">link here</a></p>
+      </div><br>
+      <hr>
+
+        <h2><i class="bi bi-truck"> </i>Renting items</h2>
+        <hr>
+        
+
+
+      <div class="accordion" id="accordionExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              <strong>#bako</strong>
+            </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+                
+              <div class="container">
+                <div class="row">
+                  <div class="col">
+                    <div class="card" style="width: 18rem;">
+                      <img src="photos/long trunk bako.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Long trunk bako</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">Rs.40000</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card" style="width: 18rem;">
+                      
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card" style="width: 18rem;">
+                      
+                      </div>
+                    </div>
+                  </div>
+
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              <strong>#Trucks</strong>
+            </button>
+          </h2>
+          <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+            
+              <div class="container">
+                <div class="row">
+                  <div class="col">
+                    <div class="card" style="width: 18rem;">
+                      <img src="photos/big dumper truck.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Big dumber track</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">Rs.40000</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card" style="width: 18rem;">
+                      <img src="photos/boom truck.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Boom truck 2008</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">Rs.32000</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card" style="width: 18rem;">
+                      <img src="photos/boomb truck 2.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Boom truck 2006</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">Rs.32000</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card" style="width: 18rem;">
+                      <img src="photos/boomb truck.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Boom truck 2009</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">Rs.32000</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              <strong>#Mixture</strong>
+            </button>
+          </h2>
+          <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              
+              <div class="container">
+                <div class="row">
+                  <div class="col">
+                    <div class="card" style="width: 18rem;">
+                      <img src="photos/concrete mixer.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Mixture</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">Rs.20000</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card" style="width: 18rem;">
+                      <img src="photos/concrete mixer2.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Mixture 2009</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">Rs.22000</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card" style="width: 18rem;">
+                      <img src="photos/concrete mixer3.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Mixture 2014</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">Rs.32000</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              <strong>#Crain</strong>
+            </button>
+          </h2>
+          <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              
+              <div class="container">
+                <div class="row">
+                  <div class="col">
+                    <div class="card" style="width: 18rem;">
+                      <img src="photos/crain 2.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Crain</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">Rs.30000</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card" style="width: 18rem;">
+                      <img src="photos/crain.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Breaker 2008</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">Rs.32000</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card" style="width: 18rem;">
+                      
+                    </div>
+                  </div>
+                </div>
+            </div>
+
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              <strong>#Roller</strong>
+            </button>
+          </h2>
+          <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <div class="container">
+                <div class="row">
+                  <div class="col">
+                    <div class="card" style="width: 18rem;">
+                      <img src="photos/mini road roller.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Mini road roller</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">Rs.40000</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card" style="width: 18rem;">
+                      <img src="photos/modified roller.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Modified Roller</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">Rs.42000</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card" style="width: 18rem;">
+                      <img src="photos/road roller.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Road Roller</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">Rs.32000</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              <strong>#Breakers</strong>
+            </button>
+          </h2>
+          <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <div class="container">
+                  <div class="row">
+                    <div class="col">
+                      <div class="card" style="width: 18rem;">
+                        <img src="photos/breaker.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">breaker</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="#" class="btn btn-primary">Rs.20000</a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card" style="width: 18rem;">
+                        <img src="photos/breakers.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Breaker 2008</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="#" class="btn btn-primary">Rs.22000</a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card" style="width: 18rem;">
+                        <img src="photos/hand breakers.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Hand breakers</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="#" class="btn btn-primary">Rs.12000</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+      <br>
+
+      
+
+
+      <nav aria-label="Page navigation example">
+        <ul class="pagination">
+          <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+          <li class="page-item"><a class="page-link" href="#">1</a></li>
+          <li class="page-item"><a class="page-link" href="#">2</a></li>
+          <li class="page-item"><a class="page-link" href="#">3</a></li>
+          <li class="page-item"><a class="page-link" href="#">Next</a></li>
+        </ul>
+      </nav>
+      <hr>
+      <br>
+
+      
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
